@@ -1,4 +1,27 @@
 /* Page Styling */
+/* Center Navigation Tabs */
+.nav-tabs {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center the tabs horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-tabs li {
+    margin: 0 15px;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-tabs a.active {
+    text-decoration: underline;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #fff7d9; /* Light yellow */
